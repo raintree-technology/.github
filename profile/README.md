@@ -43,21 +43,28 @@ npx create-claude-starter@latest
 
 ### hig-doctor
 
-CLI for auditing Apple Human Interface Guidelines compliance
+Apple HIG audit CLI + agent skills for AI coding assistants. Scores any project for Human Interface Guidelines compliance across 12 Apple frameworks (SwiftUI, UIKit, AppKit, etc).
 
-- 14 agent-driven checks
-- Multi-framework support (12 frameworks)
-- Designed for AI-assisted development workflows
+- 14 agent-driven audit skills
+- Compliance scoring with actionable fix suggestions
+- Works standalone or as skills inside Claude Code / Cursor / Copilot
+
+```
+npx skills add raintree-technology/apple-hig-skills
+```
 
 ### docpull
 
-AI ingestion pipeline for the web
+Async web crawler that converts entire sites into clean, structured Markdown for AI consumption. Built for MCP servers and RAG pipelines.
 
-- Async crawling
-- Clean Markdown output
-- MCP-compatible
-- RAG-optimized structure
-- Built-in caching + crawl profiles
+- Recursive crawling with configurable depth and concurrency
+- Clean Markdown output stripped of nav, ads, and boilerplate
+- MCP-compatible + RAG-optimized structure
+- Built-in caching and crawl profiles
+
+```
+pip install docpull
+```
 
 ---
 
@@ -67,7 +74,6 @@ We prioritize:
 
 - **Composability** — tools should integrate without friction
 - **Correctness** — outputs must be reliable and predictable
-- **Clarity** — documentation is part of the product
 
 ---
 
