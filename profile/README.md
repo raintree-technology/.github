@@ -1,19 +1,8 @@
-```
-╦═╗┌─┐┬┌┐┌┌┬┐┬─┐┌─┐┌─┐
-╠╦╝├─┤││││ │ ├┬┘├┤ ├┤ 
-╩╚═┴ ┴┴┘└┘ ┴ ┴└─└─┘└─┘
-T E C H N O L O G Y    
-```
-
-<div align="center">
-
 ### Useful Products for Humans · Open Source Tooling for Agents
 
 [![Website](https://img.shields.io/badge/website-raintree.technology-00b4d8?style=flat-square&logo=safari&logoColor=white)](https://raintree.technology)
 [![X / Twitter](https://img.shields.io/badge/@raintree__tech-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/raintree_tech)
 [![Email](https://img.shields.io/badge/support@raintree.technology-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:support@raintree.technology)
-
-</div>
 
 ---
 
