@@ -1,6 +1,13 @@
 <div align="center">
 
-<img src="banner.svg" alt="Raintree Technology" width="600" />
+```
+ ____       _       _                
+|  _ \ __ _(_)_ __ | |_ _ __ ___  ___
+| |_) / _` | | '_ \| __| '__/ _ \/ _ \
+|  _ < (_| | | | | | |_| | |  __/  __/
+|_| \_\__,_|_|_| |_|\__|_|  \___|\___|
+         T E C H N O L O G Y
+```
 
 ### Useful Products for Humans · Open Source Tooling for Agents
 
