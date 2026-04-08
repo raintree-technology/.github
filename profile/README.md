@@ -12,13 +12,13 @@ Developer tooling and agentic AI infrastructure. Agent-first frameworks, financi
 
 ## Featured Projects
 
-| Repo | Description | Tech | Stars |
+| Project | Description | Tech | Links |
 |---|---|---|---|
-| [claude-starter](https://github.com/raintree-technology/claude-starter) | Advanced Claude Code framework · 40+ skills · TOON format · MCP | TypeScript | ⭐ 65 |
-| [hig-doctor](https://github.com/raintree-technology/hig-doctor) | Apple HIG audit CLI · 14 agent skills · 12 frameworks | TypeScript | ⭐ 31 |
-| [docpull](https://github.com/raintree-technology/docpull) | Async web crawler → clean AI-ready Markdown · MCP · RAG | TypeScript | ⭐ 20 |
-| [on-aptos](https://github.com/raintree-technology/on-aptos) | Aptos portfolio tracker · DeFi · yields · RWAs | TypeScript | ⭐ 10 |
-| perps | Agent-first perpetual futures CLI · 11 exchanges | Rust | ⭐ 3 |
+| Clarity | AI-native browser | | [app](https://useclarity.app) |
+| claude-starter | Advanced Claude Code framework · 40+ skills · TOON format · MCP | TypeScript | [code](https://github.com/raintree-technology/claude-starter) · ⭐ 65 |
+| hig-doctor | Apple HIG audit CLI · 14 agent skills · 12 frameworks | TypeScript | [code](https://github.com/raintree-technology/hig-doctor) · [site](https://apple.raintree.technology/) · ⭐ 31 |
+| docpull | Async web crawler → clean AI-ready Markdown · MCP · RAG | TypeScript | [code](https://github.com/raintree-technology/docpull) · [site](https://docpull.raintree.technology/) · ⭐ 20 |
+| perps | Agent-first perpetual futures CLI · 11 exchanges | Rust | WIP |
 
 ---
 
