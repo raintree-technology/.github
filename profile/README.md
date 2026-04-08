@@ -14,10 +14,10 @@ Developer tooling and agentic AI infrastructure. Agent-first frameworks, financi
 
 | Project | Description | Tech | Links |
 |---|---|---|---|
-| Clarity | AI-native browser | | [app](https://useclarity.app) |
-| claude-starter | Advanced Claude Code framework · 40+ skills · TOON format · MCP | TypeScript | [code](https://github.com/raintree-technology/claude-starter) · ⭐ 65 |
-| hig-doctor | Apple HIG audit CLI · 14 agent skills · 12 frameworks | TypeScript | [code](https://github.com/raintree-technology/hig-doctor) · [site](https://apple.raintree.technology/) · ⭐ 31 |
-| docpull | Async web crawler → clean AI-ready Markdown · MCP · RAG | TypeScript | [code](https://github.com/raintree-technology/docpull) · [site](https://docpull.raintree.technology/) · ⭐ 20 |
+| Clarity | Personal financial workspace connecting to 12,000+ institutions, 100 CEXes, and 50 blockchains | | [app](https://useclarity.app) |
+| claude-starter | Advanced Claude Code framework · 40+ skills · TOON format · MCP | TypeScript | [code](https://github.com/raintree-technology/claude-starter) · ![stars](https://img.shields.io/github/stars/raintree-technology/claude-starter?style=flat-square&label=⭐) |
+| hig-doctor | Apple HIG audit CLI · 14 agent skills · 12 frameworks | TypeScript | [code](https://github.com/raintree-technology/hig-doctor) · [site](https://apple.raintree.technology/) · ![stars](https://img.shields.io/github/stars/raintree-technology/hig-doctor?style=flat-square&label=⭐) |
+| docpull | Async web crawler → clean AI-ready Markdown · MCP · RAG | TypeScript | [code](https://github.com/raintree-technology/docpull) · [site](https://docpull.raintree.technology/) · ![stars](https://img.shields.io/github/stars/raintree-technology/docpull?style=flat-square&label=⭐) |
 | perps | Agent-first perpetual futures CLI · 11 exchanges | Rust | WIP |
 
 ---
