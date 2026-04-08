@@ -68,15 +68,6 @@ pip install docpull
 
 ---
 
-## Philosophy
-
-We prioritize:
-
-- **Composability** — tools should integrate without friction
-- **Correctness** — outputs must be reliable and predictable
-
----
-
 <div align="center">
 
 **[Star](https://github.com/orgs/raintree-technology/repositories)** a repo if it saves you time · **[Follow](https://x.com/raintree_tech)** for releases · **[Visit](https://raintree.technology)** for docs
