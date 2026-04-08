@@ -1,66 +1,30 @@
-# Contributing to Raintree Technology
+# Contributing
 
-Thank you for your interest in contributing. We welcome issues, feature requests, bug reports, and pull requests across all our public repositories.
+Issues, bug reports, feature requests, and pull requests are welcome across all public repositories.
 
-## Getting Started
+## Workflow
 
-1. **Fork** the repository you want to contribute to
-2. **Clone** your fork locally
-3. **Install dependencies** per the repo's README
-4. **Create a branch**: `git checkout -b feat/your-feature-name`
-5. **Make changes** with clear, atomic commits
-6. **Run tests** and linting before pushing
-7. **Open a Pull Request** against `main`
+1. Fork and clone the repo
+2. Install dependencies per the README
+3. Create a branch: `git checkout -b feat/your-feature-name`
+4. Make changes with clear, atomic commits
+5. Run tests and linting before pushing
+6. Open a PR against `main`
 
-## Commit Style
+## Commits
 
-We use [Conventional Commits](https://www.conventionalcommits.org/):
+We use [Conventional Commits](https://www.conventionalcommits.org/): `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`, `perf:`.
 
-- `feat:` — new feature
-- `fix:` — bug fix
-- `docs:` — documentation only
-- `chore:` — maintenance, dependency updates
-- `refactor:` — code change without feature/fix
-- `test:` — adding or updating tests
-- `perf:` — performance improvement
+## Pull Requests
 
-## Code Style
-
-Each language has a designated formatter — run it before committing:
-
-| Language | Tool |
-|---|---|
-| TypeScript / JS | `biome format --write .` |
-| Rust | `cargo fmt` |
-| Python | `black .` |
-
-Linting is enforced on PRs. Ensure `biome check`, `cargo clippy`, or equivalent passes.
-
-## Pull Request Guidelines
-
-- Keep PRs focused — one feature or fix per PR
-- Include a clear description of *what* and *why*
+- One feature or fix per PR
 - Reference related issues with `Closes #123`
-- Add tests for any new functionality
-- Update documentation where relevant
-- Screenshots are appreciated for UI changes
+- Add tests for new functionality
 
-## Reporting Bugs
+## Formatting
 
-Use the Bug Report issue template. Include:
-- Steps to reproduce
-- Expected vs actual behavior
-- Environment (OS, runtime version, etc.)
-- Relevant logs or error output
-
-## Feature Requests
-
-Use the Feature Request issue template. Be specific about the use case and expected behavior.
-
-## Code of Conduct
-
-All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+Run the repo's designated formatter before committing — `biome format --write .` (TS/JS), `cargo fmt` (Rust), `black .` (Python). Linting is enforced on PRs.
 
 ## Questions
 
-Open a Discussion or reach out at [support@raintree.technology](mailto:support@raintree.technology).
+Open a Discussion or email [support@raintree.technology](mailto:support@raintree.technology).
