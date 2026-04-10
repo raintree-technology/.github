@@ -8,10 +8,6 @@
 
 ---
 
-Developer tooling and agentic AI infrastructure for finance, content, and code.
-
----
-
 ## Projects
 
 ### Clarity
