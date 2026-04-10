@@ -9,6 +9,8 @@ Organization-wide GitHub configuration for [Raintree Technology](https://raintre
 | `profile/README.md` | Organization profile displayed on [github.com/raintree-technology](https://github.com/raintree-technology) |
 | `CONTRIBUTING.md` | Default contributing guidelines inherited by all repos without their own |
 | `SECURITY.md` | Default security policy and vulnerability reporting process |
+| `PULL_REQUEST_TEMPLATE.md` | Default PR template with checklist |
+| `ISSUE_TEMPLATE/` | Bug report and feature request templates |
 
 ## How it works
 
