@@ -1,4 +1,4 @@
-R A I N T R E E  T E C H N O L O G Y
+R A I N T R E E T E C H N O L O G Y
 
 Apps, and open source AI tools.
 
@@ -8,7 +8,7 @@ Apps, and open source AI tools.
 
 ## Apps
 
-**[Clarity](https://useclarity.app)** — One encrypted workspace for spending, investing, taxes, and goals. 12,000+ banks, 100+ exchanges, 50+ blockchains.
+**[BetterOff](https://betteroff.finance)** — One encrypted workspace for spending, investing, taxes, and goals. 12,000+ banks, 100+ exchanges, 50+ blockchains.
 
 ---
 
@@ -16,11 +16,15 @@ Apps, and open source AI tools.
 
 MIT licensed · no telemetry · no accounts
 
-**[claude-starter](https://github.com/raintree-technology/claude-starter)** — Claude Code framework with 40+ composable skills. `npx create-claude-starter@latest`
+**[agent-starter](https://github.com/raintree-technology/agent-starter)** — Multi-agent skill pack for Claude Code, Codex, and Cursor. 16 deep skills across fintech, SaaS, mobile, copywriting, and code cleanup. `npx create-agent-starter@latest`
 
-**[hig-doctor](https://github.com/raintree-technology/hig-doctor)** — Apple HIG audit CLI for AI coding assistants. 12 frameworks, 14 checks. `npx skills add raintree-technology/apple-hig-skills`
+**[hig-doctor](https://github.com/raintree-technology/hig-doctor)** — Apple HIG audit CLI + 14 agent skills for AI coding assistants. Scores any project for HIG compliance across 12 frameworks. `npx skills add raintree-technology/apple-hig-skills`
 
-**[docpull](https://github.com/raintree-technology/docpull)** — Light web crawler that converts sites to clean Markdown for AI. `pip install docpull`
+**[docpull](https://github.com/raintree-technology/docpull)** — Crawl any website and convert it to clean, AI-ready Markdown. MCP server, crawl profiles, caching, and RAG-optimized output. `pip install docpull`
+
+**[next-starter](https://github.com/raintree-technology/next-starter)** — Production-grade Next.js 16 SaaS starter. Auth, database, billing, teams, email, and AI all wired up. `git clone raintree-technology/next-starter`
+
+**[buildergraph](https://github.com/raintree-technology/buildergraph)** — Developer intelligence for crypto investors. Real-time analysis of 560K+ repositories across 3,600+ ecosystems with agent-ready API and MCP support.
 
 ---
 
