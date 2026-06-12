@@ -87,8 +87,12 @@ jobs:
           esac
 
       - name: Verify exact-pinned dependencies
+        env:
+          # SHA of this reusable workflow's own commit — keeps the script
+          # version locked to the workflow version the caller pinned.
+          STANDARD_SHA: ${{ github.job_workflow_sha || 'main' }}
         run: |
-          curl -fsSL "https://raw.githubusercontent.com/raintree-technology/.github/main/scripts/check-pinned-deps.mjs" -o /tmp/check-pinned-deps.mjs
+          curl -fsSL "https://raw.githubusercontent.com/raintree-technology/.github/${STANDARD_SHA}/scripts/check-pinned-deps.mjs" -o /tmp/check-pinned-deps.mjs
           node /tmp/check-pinned-deps.mjs
 
       - name: Biome check

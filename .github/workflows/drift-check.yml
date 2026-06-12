@@ -32,6 +32,8 @@ jobs:
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           repository: raintree-technology/.github
+          # same commit as the reusable workflow the caller pinned
+          ref: ${{ github.job_workflow_sha }}
           path: .raintree-standard
           persist-credentials: false
 
