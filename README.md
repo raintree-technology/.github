@@ -46,7 +46,8 @@ jobs:
     uses: raintree-technology/.github/.github/workflows/ci.yml@<commit-sha>
     with:
       package-manager: bun   # bun | pnpm | npm
-    secrets: inherit
+      standard-ref: <commit-sha>
+    secrets: inherit # private repos; public repos may omit this when no optional org secrets are needed
 ```
 
 ### Calling the drift check
@@ -60,6 +61,8 @@ on:
 jobs:
   drift:
     uses: raintree-technology/.github/.github/workflows/drift-check.yml@<commit-sha>
+    with:
+      standard-ref: <commit-sha>
 ```
 
 ## How it works

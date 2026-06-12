@@ -8,7 +8,7 @@
 #       with:
 #         package-manager: bun        # bun | pnpm | npm
 #         standard-ref: <commit-sha>  # same SHA as the reusable workflow ref
-#       secrets: inherit
+#       secrets: inherit             # private repos; public repos may omit when no optional org secrets are needed
 #
 # Pipeline: frozen install → pin check → biome → typecheck → test → build
 #           → gitleaks (full history) → Socket (only when an API key secret exists).
