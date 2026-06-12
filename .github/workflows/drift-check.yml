@@ -8,13 +8,20 @@
 #   jobs:
 #     drift:
 #       uses: raintree-technology/.github/.github/workflows/drift-check.yml@<commit-sha>
+#       with:
+#         standard-ref: <commit-sha>  # same SHA as the reusable workflow ref
 #
 # Fails when the repo stops meeting the Raintree standard: missing files,
 # unpinned deps, unpinned action refs, stale/absent central-CI wiring.
 name: Raintree drift check
 
 on:
-  workflow_call: {}
+  workflow_call:
+    inputs:
+      standard-ref:
+        description: "Ref in raintree-technology/.github to check out standard scripts from; pin to the same SHA as this reusable workflow."
+        type: string
+        default: main
 
 permissions:
   contents: read
@@ -32,8 +39,7 @@ jobs:
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           repository: raintree-technology/.github
-          # same commit as the reusable workflow the caller pinned
-          ref: ${{ github.job_workflow_sha }}
+          ref: ${{ inputs.standard-ref }}
           path: .raintree-standard
           persist-credentials: false
 

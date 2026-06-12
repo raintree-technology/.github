@@ -7,6 +7,7 @@
 #       uses: raintree-technology/.github/.github/workflows/ci.yml@<commit-sha>
 #       with:
 #         package-manager: bun        # bun | pnpm | npm
+#         standard-ref: <commit-sha>  # same SHA as the reusable workflow ref
 #       secrets: inherit
 #
 # Pipeline: frozen install → pin check → biome → typecheck → test → build
@@ -34,6 +35,10 @@ on:
         description: "Root of the package being checked"
         type: string
         default: "."
+      standard-ref:
+        description: "Ref in raintree-technology/.github to fetch standard scripts from; pin to the same SHA as this reusable workflow."
+        type: string
+        default: main
       run-build:
         description: "Run the build script (disable for repos whose build needs deploy credentials)"
         type: boolean
@@ -88,11 +93,9 @@ jobs:
 
       - name: Verify exact-pinned dependencies
         env:
-          # SHA of this reusable workflow's own commit — keeps the script
-          # version locked to the workflow version the caller pinned.
-          STANDARD_SHA: ${{ github.job_workflow_sha || 'main' }}
+          STANDARD_REF: ${{ inputs.standard-ref }}
         run: |
-          curl -fsSL "https://raw.githubusercontent.com/raintree-technology/.github/${STANDARD_SHA}/scripts/check-pinned-deps.mjs" -o /tmp/check-pinned-deps.mjs
+          curl -fsSL "https://raw.githubusercontent.com/raintree-technology/.github/${STANDARD_REF}/scripts/check-pinned-deps.mjs" -o /tmp/check-pinned-deps.mjs
           node /tmp/check-pinned-deps.mjs
 
       - name: Biome check
