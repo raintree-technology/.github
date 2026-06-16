@@ -4,16 +4,6 @@ Apps, and open source AI tools.
 
 [raintree.technology](https://raintree.technology) · [@raintree_tech](https://x.com/raintree_tech) · [hello@raintree.technology](mailto:hello@raintree.technology)
 
----
-
-## Apps
-
-**[BetterOff](https://betteroff.finance)** — One encrypted workspace for spending, investing, taxes, and goals. 12,000+ banks, 100+ exchanges, 50+ blockchains.
-
-**[BuilderGraph](https://buildergraph.dev)** — Developer intelligence for crypto investors. Real-time analysis of 560K+ repositories across 3,600+ ecosystems with agent-ready API and MCP support.
-
----
-
 ## Open Source
 
 MIT licensed · no telemetry · no accounts
