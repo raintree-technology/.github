@@ -1,0 +1,4 @@
+# Default owner for the org-standard repo. CODEOWNERS is not inherited from
+# the .github repo — each repo carries its own copy (vendored by the
+# standardization pass).
+* @admin-raintree
