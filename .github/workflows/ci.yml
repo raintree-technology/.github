@@ -1,0 +1,27 @@
+name: repo-baseline
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check baseline files
+        run: |
+          test -f README.md
+          test -f SECURITY.md
+          test -f CODEOWNERS -o -f .github/CODEOWNERS
+          test -f renovate.json -o -f .github/renovate.json
+      - name: Check real env files are absent
+        run: |
+          if find . -path ./.git -prune -o -type f \( -name '.env' -o -name '.env.local' -o -name '.env.development' -o -name '.env.production' \) -print | grep .; then
+            echo "Real .env files must not be committed"
+            exit 1
+          fi
