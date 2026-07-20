@@ -1,3 +1,6 @@
 {
-  "extends": ["github>raintree-technology/engineering-standards//configs/renovate/default.json5"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "minimumReleaseAge": "3 days",
+  "dependencyDashboard": true
 }
