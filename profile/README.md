@@ -12,5 +12,6 @@ Applied AI products and open-source developer tools.
 
 - **[BetterOff](https://betteroff.finance)** - Read-only household finance with connected accounts and cited answers.
 - **[FlightSweeper](https://flightsweeper.com)** - Airfare search and booking for travelers and agents.
+- **[Raintree Minerals](https://raintreeminerals.com)** - Mineral intelligence and operating workflows.
 
 [Website](https://raintree.technology) · [Security](mailto:security@raintree.technology)
