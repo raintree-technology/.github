@@ -23,4 +23,4 @@ We build with source-linked context, scoped permissions, deterministic tests, hu
 
 [Website](https://raintree.technology) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Security](mailto:security@raintree.technology)
 
-<!-- Generated from the Raintree Technology public-presence source. Do not edit profile copy by hand. -->
+<!-- Generated from public-presence/profiles/raintree-github-readme.md. Do not edit profile copy by hand. -->
