@@ -21,3 +21,5 @@ Raintree Technology builds reliable AI products and open-source developer tools.
 We build with source-linked context, scoped permissions, deterministic tests, human approval, and reproducible evidence.
 
 [Website](https://raintree.technology) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Security](mailto:security@raintree.technology)
+
+<!-- Generated from the Raintree Technology public-presence source. Do not edit profile copy by hand. -->
