@@ -1,8 +1,12 @@
 # Raintree Technology
 
-Raintree Technology builds reliable AI products and open-source developer tools.
+Raintree Technology builds financial products and developer tools with controlled AI workflows, source-linked data, and human approval.
 
 **Built for humans. Ready for agents.**
+
+## Product
+
+- **[BetterOff](https://betteroff.finance)** — Brings spending, investments, assets, debts, and net worth into one current household record, with inspectable answers grounded in customers' financial data.
 
 ## Open source
 
@@ -12,10 +16,6 @@ Raintree Technology builds reliable AI products and open-source developer tools.
 - **[Trellis](https://github.com/raintree-technology/trellis)** — Catches risky shortcuts, security footguns, and structural debt with shared Biome checks and deterministic JSON fix lists.
 - **[Raintree Standards](https://github.com/raintree-technology/raintree.standards)** — Defines testable requirements, evidence, task profiles, and exceptions for Raintree product and agent work. Pre-1.0.
 - **[SimpleOS](https://github.com/raintree-technology/SimpleOS)** — Experimental Unix-like 32-bit x86 operating system built from scratch in C and assembly that boots and runs in a browser.
-
-## Product
-
-- **[BetterOff](https://betteroff.finance)** — Brings spending, investments, assets, debts, and net worth into one view so people can see where they stand and what to do next.
 
 ## How we build
 
