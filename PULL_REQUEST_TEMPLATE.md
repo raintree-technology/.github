@@ -1,14 +1,7 @@
 ## Summary
 
-<!-- What does this PR do? Why? -->
+What changed and why?
 
-## Changes
+## Verification
 
--
-
-## Checklist
-
-- [ ] Tests pass locally
-- [ ] Linting/formatting clean
-- [ ] No secrets or credentials committed
-- [ ] Breaking changes documented (if any)
+What did you check, and what remains unverified?
