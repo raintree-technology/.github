@@ -1,19 +1,13 @@
-# .github
+# Raintree Technology GitHub defaults
 
-Organization-wide GitHub configuration for [Raintree Technology](https://raintree.technology).
+This public `.github` repository provides organization-wide GitHub defaults.
 
-## Contents
+- `profile/README.md` — organization profile
+- `CONTRIBUTING.md` — default contribution guidance
+- `SECURITY.md` — default vulnerability-reporting policy
+- `.github/ISSUE_TEMPLATE/` — default issue templates
+- `PULL_REQUEST_TEMPLATE.md` — default pull-request template
+- `AGENTS.md` — short working agreement for Raintree coding agents
 
-| Path | Purpose |
-|---|---|
-| `profile/README.md` | Organization profile displayed on [github.com/raintree-technology](https://github.com/raintree-technology) |
-| `CONTRIBUTING.md` | Default contributing guidelines inherited by all repos without their own |
-| `SECURITY.md` | Default security policy and vulnerability reporting process |
-| `PULL_REQUEST_TEMPLATE.md` | Default PR template with checklist |
-| `ISSUE_TEMPLATE/` | Bug report and feature request templates |
-
-## How it works
-
-GitHub automatically applies files in this repository as defaults across the organization. Any repository can override these by adding its own version of the same file.
-
-See [GitHub docs: creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for details.
+Repositories can override community files with their own versions. Project-specific
+commands and exceptions belong in each repository's `AGENTS.md`.
