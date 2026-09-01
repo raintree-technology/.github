@@ -4,10 +4,6 @@ Raintree Technology builds financial products and developer tools with controlle
 
 **Built for humans. Ready for agents.**
 
-## Product
-
-- **[BetterOff](https://betteroff.finance)** — Brings spending, investments, assets, debts, and net worth into one current household record, with inspectable answers grounded in customers' financial data.
-
 ## Open source
 
 - **[DocPull](https://github.com/raintree-technology/docpull)** — Turns changing websites into cited, reproducible context that agents can verify before they act.
