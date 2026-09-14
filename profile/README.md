@@ -1,6 +1,6 @@
 # Raintree Technology
 
-[🌐 Website](https://raintree.technology/) · [Services](https://raintree.technology/services) · [Research](https://raintree.technology/research)
+[Website](https://raintree.technology/) · [Services](https://raintree.technology/services) · [Research](https://raintree.technology/research)
 
 Financial software, open-source developer tools, and research by [Zachary Roth](https://github.com/zacharyr0th).
 
@@ -22,4 +22,4 @@ Financial software, open-source developer tools, and research by [Zachary Roth](
 
 [Computational mathematics](https://raintree.technology/research/erdos): research notes and verification evidence for selected Erdős problems.
 
-[🌐 All software](https://raintree.technology/portfolio) · <a href="https://www.linkedin.com/company/raintree-tech"><img src="https://raw.githubusercontent.com/raintree-technology/.github/main/profile/assets/linkedin.svg" width="18" height="18" alt="LinkedIn"></a> · <a href="https://x.com/raintree_tech"><img src="https://raw.githubusercontent.com/raintree-technology/.github/main/profile/assets/x.svg" width="18" height="18" alt="X"></a> · [Report a security issue](mailto:security@raintree.technology)
+[All software](https://raintree.technology/portfolio) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Report a security issue](mailto:security@raintree.technology)
