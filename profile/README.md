@@ -20,6 +20,6 @@ Financial software, open-source developer tools, and research by [Zachary Roth](
 
 ## Research
 
-[Computational mathematics](https://raintree.technology/research/erdos): research notes and verification evidence for selected Erdős problems. Results are prepared for independent review; no unrestricted problem is claimed solved.
+[Computational mathematics](https://raintree.technology/research/erdos): research notes and verification evidence for selected Erdős problems.
 
 [All software](https://raintree.technology/portfolio) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Report a security issue](mailto:security@raintree.technology)
