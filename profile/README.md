@@ -1,25 +1,34 @@
 # Raintree Technology
 
-[Website](https://raintree.technology/) · [Services](https://raintree.technology/services) · [Research](https://raintree.technology/research)
+Raintree Technology is Zachary Roth's independent software company and research practice. It builds BetterOff, publishes open-source developer tools, and researches reliable AI systems.
 
-Financial software, open-source developer tools, and research by [Zachary Roth](https://github.com/zacharyr0th).
+**Built for humans. Ready for agents.**
 
-## Product
+## Flagship product
 
-**[BetterOff](https://betteroff.finance/)** — A live, multitenant financial workspace for accounts, spending, investments, and net worth.
+- **[BetterOff](https://betteroff.finance)** — Brings spending, investments, assets, debts, and net worth into one current household record, with inspectable answers grounded in customers' financial data.
 
-## Open source
+## Selected developer tools
 
-- **[PolicyStrata](https://github.com/raintree-technology/policystrata)** tests policy drift in LLM data agents.
-  - Accepted for an Industry Track talk and demonstration at IEEE ISSRE 2026. [Paper and research](https://raintree.technology/writing/policystrata).
-- **[DocPull](https://github.com/raintree-technology/docpull)** turns web sources into cited, reproducible context for AI agents.
-- **[HIG Doctor](https://github.com/raintree-technology/hig-doctor)** checks Apple-platform interfaces against Apple’s Human Interface Guidelines and other platforms against accessibility and interface-quality rules.
-- **[Trellis](https://github.com/raintree-technology/trellis)** runs shared Biome policy checks and produces deterministic JSON fix lists.
-- **[Raintree Standards](https://github.com/raintree-technology/raintree.standards)** defines testable requirements, evidence, and exceptions for product and agent work. Pre-1.0.
-- **[SimpleOS](https://github.com/raintree-technology/SimpleOS)** is an experimental 32-bit x86 operating system written in C and assembly that runs in a browser.
+- **[DocPull](https://github.com/raintree-technology/docpull)** — Turns changing websites into cited, reproducible context that agents can verify before they act.
+- **[PolicyStrata](https://github.com/raintree-technology/policystrata)** — Catches policy drift before release by turning cross-layer failures into deterministic, reproducible tests.
+- **[HIG Doctor](https://github.com/raintree-technology/hig-doctor)** — Checks Apple-platform code against the HIG and cross-platform code against aligned accessibility and interface-quality rules.
+
+## Supporting tools
+
+- **[Trellis](https://github.com/raintree-technology/trellis)** — Catches risky shortcuts, security footguns, and structural debt with shared Biome checks and deterministic JSON fix lists.
+- **[Raintree Standards](https://github.com/raintree-technology/raintree.standards)** — Defines stable, testable requirements, evidence, task profiles, and exceptions for Raintree product and agent work.
 
 ## Research
 
-[Computational mathematics](https://raintree.technology/research/erdos): research notes and verification evidence for selected Erdős problems.
+[PolicyStrata](https://raintree.technology/writing/policystrata) was accepted for
+an IEEE ISSRE 2026 Industry Track talk and demonstration. It tests policy drift
+in LLM data agents and states its evidence and limitations.
 
-[All software](https://raintree.technology/portfolio) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Report a security issue](mailto:security@raintree.technology)
+## How we build
+
+We build with source-linked context, scoped permissions, deterministic tests, human approval, and reproducible evidence.
+
+[Website](https://raintree.technology) · [LinkedIn](https://www.linkedin.com/company/raintree-tech) · [X](https://x.com/raintree_tech) · [Security](mailto:security@raintree.technology)
+
+<!-- Generated from presence/raintree/profiles/github-readme.md. Do not edit profile copy by hand. -->
