@@ -1,6 +1,8 @@
 # Raintree Technology
 
-Building [BetterOff](https://betteroff.finance/github), a tool for managing household finances, and open-source tools for developers working with AI.
+Building [BetterOff](https://betteroff.finance/github), a financial platform for tracking, investing, and trading money across banks, brokerages, wallets, and exchanges, and open-source tools for developers working with AI.
+
+BetterOff, its open source CLI and its AI connectors live in the [betteroff-finance](https://github.com/betteroff-finance) organization.
 
 Projects: [DocPull](https://github.com/raintree-technology/docpull) · [HIG Doctor](https://github.com/raintree-technology/hig-doctor) · [PolicyStrata](https://github.com/raintree-technology/policystrata) · [Trellis](https://github.com/raintree-technology/trellis) · [Raintree Standards](https://github.com/raintree-technology/raintree.standards)
 
